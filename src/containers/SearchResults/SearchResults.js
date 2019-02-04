@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react';
 
-import HeaderNav from '../containers/HeaderNav';
-import Filters from './Filters';
-import { yearFilters, genreFilters, ratingFilters } from '../data/filters';
-import MoviesList from '../components/MoviesList/MoviesList';
-import { loadMovies, cancelSource } from '../api/moviesApi'
+import HeaderNav from '../HeaderNav/HeaderNav';
+import Filters from '../Filters/Filters';
+import { yearFilters, genreFilters, ratingFilters } from '../../data/filters';
+import MoviesList from '../../components/MoviesList/MoviesList';
+import { loadMovies, cancelSource } from '../../api/moviesApi'
 
 const defaultState = { 
   yearItems: yearFilters,

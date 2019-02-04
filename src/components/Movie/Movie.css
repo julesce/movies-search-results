@@ -1,2 +1,5 @@
-div.movie { width: 173px }
+.movie { width: 173px }
 .movie img { height: 256px }
+.movie .content { margin: 0.7rem 0 0 1rem; }
+.movie .content .category { color: gray; margin:0; padding: 0}
+.movie .content .title { margin:0.8rem 0 1rem 0; padding: 0}

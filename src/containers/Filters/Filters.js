@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { Grid, Icon, Dropdown, List, ListItem, Label } from 'semantic-ui-react';
 
-import FilterPanel from '../components/FilterPanel/FilterPanel';
-import { sortOptions } from '../data/filters';
+import FilterPanel from '../../components/FilterPanel/FilterPanel';
+import { sortOptions } from '../../data/filters';
 
 class Filters extends Component {
   state = { panelOpen: true }
