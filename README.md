@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movies Search Results - React Playground
+
+A simple little React app that hits a local JSON file and displays a list of movies.
+
+## Setup
+
+In the project directory:
+
+### `yarn install`
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory:
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to take a peek.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### `yarn run storybook`
 
-### `npm test`
+Fires up the [Storybook UI](https://storybook.js.org), so that one can look at each of the relevant components in isolation. Open [http://localhost:9009/](http://localhost:9009/) to have a look.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `yarn run test:e2e:dev`
 
-### `npm run build`
+Runs the end-to-end tests using [Cypress](https://www.cypress.io). Wait for the Cypress app to spin up (and the local server), and then click on the `Run all specs` button.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode, and runs the snapshot tests driven by Storybook.
+
+### `yarn run build`
 
 Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Design Decisions and Considerations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Architecture
 
-### `npm run eject`
+Movies are retrieved via a `GET` request to a local JSON file. It is assumed that all filtering and sorting would happen on the server side. Thus you'll notice that I send through these relevant filter parameters as part of the request to the "server" (they're logged in the `console`).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The categories listed as part of the top navigation (`All`, `Movies`, `Games & Apps`, etc.) are assumed to route off to their relevant component for showing search results for that type of category. In our case, we're only interested in showing what the results for a movie based search would look like.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+There is a one second delay in retrieving the movies. This is to simulate a real world network request, and illustrate how we handle this loading time.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Network request errors are simply logged to the `console`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### State Management
 
-## Learn More
+I've opted to keep things simple, and shy away from Redux / MobX. In this case I'd consider these to be adding unnecessary complexity, with little value.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You’ll notice that I split up components into two categories:
+* `Containers` - These are designed to manage local state, and propagate that state down into child components as props.
+* `Components` - These do not manage local state, and render based on their props.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Styling
 
-### Code Splitting
+I chose to go with the base theme of [Semantic UI](https://react.semantic-ui.com/). It felt like a good foundation upon which to build, given that it provides a relatively un-opinionated set of styles and components, unlike Google's Material Design. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+The `container` that we use to wrap our content doesn't quite match up to the design mock-up (in terms of dimensions), so I've made various approximations about sizing things.
 
-### Analyzing the Bundle Size
+I've kept things simple by just importing individual stylesheets into the components themselves. Going the JSS route felt like a bit of overkill.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Responsiveness
 
-### Making a Progressive Web App
+The relevant components and elements do start stacking as the browser width drops. The alignment of the images to the container size isn't quite perfect as we scale down though, so there is room for improvement here.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Testing
 
-### Advanced Configuration
+I'm a believer of what Kent C Dodds talks about [here](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c), and specifically [this](https://twitter.com/kentcdodds/status/977018512689455106): 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+`The more your tests resemble the way your software is used, the more confidence they can give you.`
 
-### Deployment
+Thus, I've gone the route of using [Storybook](https://storybook.js.org) for snapshot testing (ensuring that our components render correctly), and [Cypress](https://www.cypress.io) for end-to-end tests (ensuring that we're testing things from the user's perspective).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+That's not to say that I believe there is no place for unit tests. It's just that in this case, our integration style tests deliver more value to us.
 
-### `npm run build` fails to minify
+### Future Considerations
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* `Accessibility` - The app should be tested properly under a screenreader. Unfortunately time constraints have gotten the better of me here.
+
+### Code Comments
+
+I'm a big believer in writing self-documenting code, and take pride in doing so. Thus, you won't find many comments in my work, with the exception of when it is truly deserving.
+
+More often than not, comments end up being out-of-date distractions, seldom offering any real insight into the working of things. 

@@ -35,7 +35,7 @@ class SearchResults extends Component {
     console.log('About to ask API for movies with the following params: ', params)
     
     try {
-      const data = await loadMovies(params, cancelSource.token)
+      const data = await loadMovies(params, cancelSource.token)    // We pass the cancelSource.token through so that we can cancel the request if the component unmounts before the request completes.
       this.setState({ movies: data, loading: false });
     } catch (error) {
       console.log('Error getting movies: ', error);
