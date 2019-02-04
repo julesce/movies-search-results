@@ -1,0 +1,8 @@
+#headerNav h1 { text-transform: uppercase }
+
+.ui.secondary.menu .active.item { 
+  background: none; 
+  border-bottom: 3px solid rgba(0,0,0,.95) 
+}
+
+.ui.menu { margin: 0 }

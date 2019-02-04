@@ -1,0 +1,14 @@
+ul.moviesList { 
+  display:flex; 
+  flex-wrap: wrap; 
+  list-style:none;
+  margin: 1.3rem 0 0 0;
+  padding: 0;
+}
+
+ul.moviesList li { margin:0.53rem; padding: 0}
+ul.moviesList li .movie .content { margin: 0.7rem 0 0 1rem; }
+ul.moviesList li .movie .content .category { color: gray; margin:0; padding: 0}
+ul.moviesList li .movie .content .title { margin:0.8rem 0 1rem 0; padding: 0}
+
+.noMovies { margin-top:12rem;}
