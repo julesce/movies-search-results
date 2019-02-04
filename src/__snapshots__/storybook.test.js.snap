@@ -1,0 +1,1093 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots FilterPanel default 1`] = `
+<div
+  className="ui container"
+>
+  <div
+    className="ui stackable two column grid filterGrid"
+  >
+    <div
+      className="column"
+    >
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Release Year
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Genre
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Rating
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+    </div>
+    <div
+      className="right aligned column"
+    >
+      <button
+        className="ui black basic button filterButton"
+        onClick={[Function]}
+      >
+        Clear Filters
+      </button>
+      <button
+        className="ui black basic button filterButton"
+        onClick={[Function]}
+      >
+        Apply Filters
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots FilterPopup Release Year 1`] = `
+<div
+  className="ui container"
+>
+  <a
+    className="ui large label"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "background": "none",
+      }
+    }
+  >
+    Release Year
+     
+    <i
+      aria-hidden="true"
+      className="dropdown icon"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Filters default 1`] = `
+<div
+  className="ui container"
+>
+  <div
+    className="ui grid filterGrid"
+  >
+    <div
+      className="right aligned column"
+    >
+      <div
+        className="ui horizontal list"
+        role="list"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <a
+            className="ui large label"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "none",
+              }
+            }
+          >
+            Filter 
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+            />
+          </a>
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          Sorted By: 
+          <div
+            aria-expanded={false}
+            className="ui inline dropdown"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            role="listbox"
+            tabIndex={0}
+          >
+            <div
+              aria-live="polite"
+              className="text"
+              role="alert"
+            >
+              Alphabetically
+            </div>
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+              onClick={[Function]}
+            />
+            <div
+              className="menu transition"
+            >
+              <div
+                aria-checked={false}
+                aria-selected={false}
+                className="item"
+                onClick={[Function]}
+                role="option"
+                style={
+                  Object {
+                    "pointerEvents": "all",
+                  }
+                }
+              >
+                <span
+                  className="text"
+                >
+                  Popularity
+                </span>
+              </div>
+              <div
+                aria-checked={true}
+                aria-selected={true}
+                className="active selected item"
+                onClick={[Function]}
+                role="option"
+                style={
+                  Object {
+                    "pointerEvents": "all",
+                  }
+                }
+              >
+                <span
+                  className="text"
+                >
+                  Alphabetically
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui stackable two column grid filterGrid"
+  >
+    <div
+      className="column"
+    >
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Release Year
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Genre
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Rating
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+    </div>
+    <div
+      className="right aligned column"
+    >
+      <button
+        className="ui black basic button filterButton"
+        onClick={[Function]}
+      >
+        Clear Filters
+      </button>
+      <button
+        className="ui black basic button filterButton"
+        onClick={[Function]}
+      >
+        Apply Filters
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots HeaderNav default 1`] = `
+<div
+  className="ui container"
+>
+  <nav
+    className="ui secondary stackable menu"
+    id="headerNav"
+  >
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <h1
+        className="ui header"
+      >
+        Search 
+        <br />
+        Results
+      </h1>
+    </div>
+    <div
+      className="right menu"
+    >
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="icon"
+        />
+        All
+      </a>
+      <a
+        className="active item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="film icon"
+        />
+        Movies
+      </a>
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="tv icon"
+        />
+        TV Shows
+      </a>
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="game icon"
+        />
+        Games & Apps
+      </a>
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="talk icon"
+        />
+        Blog
+      </a>
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="question icon"
+        />
+        Other
+      </a>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="grid layout big link icon"
+        />
+        <i
+          aria-hidden="true"
+          className="grey list layout big link icon"
+        />
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots Movie default 1`] = `
+<div
+  className="ui container"
+>
+  <div
+    className="movie"
+  >
+    <img
+      className="ui image"
+      src="https://m.media-amazon.com/images/M/MV5BMTY2NDI2MTc2NV5BMl5BanBnXkFtZTcwNjA2NTQzMw@@._V1_SY1000_CR0,0,676,1000_AL_.jpg"
+    />
+    <div
+      className="content"
+    >
+      <h6
+        className="ui header category"
+      >
+        Movie
+      </h6>
+      <h4
+        className="ui header title"
+      >
+        The Assassination of Jesse James by the Coward Robert Ford
+      </h4>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots MoviesList loading 1`] = `
+<div
+  className="ui container"
+>
+  <div
+    className="ui grid"
+  >
+    <div
+      className="column"
+    >
+      <div
+        className="ui active centered inline loader"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots MoviesList with results 1`] = `
+<div
+  className="ui container"
+>
+  <ul
+    className="moviesList"
+  >
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BMTY2NDI2MTc2NV5BMl5BanBnXkFtZTcwNjA2NTQzMw@@._V1_SY1000_CR0,0,676,1000_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            The Assassination of Jesse James by the Coward Robert Ford
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BOGZmYzVkMmItM2NiOS00MDI3LWI4ZWQtMTg0YWZkODRkMmViXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            Batman Returns
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BNWY3M2I0YzItNzA1ZS00MzE3LThlYTEtMTg2YjNiOTYzODQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,678,1000_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            Batman Forever
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BMGQ5YTM1NmMtYmIxYy00N2VmLWJhZTYtN2EwYTY3MWFhOTczXkEyXkFqcGdeQXVyNTA2NTI0MTY@._V1_SY1000_CR0,0,671,1000_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            Batman & Robin
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BZmUwNGU2ZmItMmRiNC00MjhlLTg5YWUtODMyNzkxODYzMmZlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_SX750_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            Batman Begins
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BMTkyMTMwNjA3MV5BMl5BanBnXkFtZTcwNzE2NTI2OQ@@._V1_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            The Batman vs Dracula
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            The Dark Knight
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BM2I0YTFjOTUtMWYzNC00ZTgyLTk2NWEtMmE3N2VlYjEwN2JlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            Batman: Gotham Knight
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BNTJjMmVkZjctNjNjMS00ZmI2LTlmYWEtOWNiYmQxYjY0YWVhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,680,1000_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            Batman: Year One
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BYTdlODI0YTYtNjk5ZS00YzZjLTllZjktYmYzNWM4NmI5MmMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            Batman: Under the Red Hood
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            The Dark Knight Rises
+          </h4>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="movie"
+      >
+        <img
+          className="ui image"
+          src="https://m.media-amazon.com/images/M/MV5BMTdjZTliODYtNWExMi00NjQ1LWIzN2MtN2Q5NTg5NTk3NzliL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+        />
+        <div
+          className="content"
+        >
+          <h6
+            className="ui header category"
+          >
+            Movie
+          </h6>
+          <h4
+            className="ui header title"
+          >
+            Batman: The Killing Joke
+          </h4>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div
+    className="ui grid"
+  >
+    <div
+      className="center aligned column"
+    >
+      <button
+        className="ui black basic button loadMoreButton"
+        onClick={[Function]}
+      >
+        Load More
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots MoviesList without results 1`] = `
+<div
+  className="ui container"
+>
+  <div
+    className="ui grid"
+  >
+    <div
+      className="center aligned column"
+    >
+      Sorry, no movies found.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots SearchResults default 1`] = `
+<div
+  className="ui container"
+>
+  <nav
+    className="ui secondary stackable menu"
+    id="headerNav"
+  >
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <h1
+        className="ui header"
+      >
+        Search 
+        <br />
+        Results
+      </h1>
+    </div>
+    <div
+      className="right menu"
+    >
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="icon"
+        />
+        All
+      </a>
+      <a
+        className="active item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="film icon"
+        />
+        Movies
+      </a>
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="tv icon"
+        />
+        TV Shows
+      </a>
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="game icon"
+        />
+        Games & Apps
+      </a>
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="talk icon"
+        />
+        Blog
+      </a>
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="question icon"
+        />
+        Other
+      </a>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="grid layout big link icon"
+        />
+        <i
+          aria-hidden="true"
+          className="grey list layout big link icon"
+        />
+      </div>
+    </div>
+  </nav>
+  <div
+    className="ui grid filterGrid"
+  >
+    <div
+      className="right aligned column"
+    >
+      <div
+        className="ui horizontal list"
+        role="list"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <a
+            className="ui large label"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "none",
+              }
+            }
+          >
+            Filter 
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+            />
+          </a>
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          Sorted By: 
+          <div
+            aria-expanded={false}
+            className="ui inline dropdown"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            role="listbox"
+            tabIndex={0}
+          >
+            <div
+              aria-live="polite"
+              className="text"
+              role="alert"
+            >
+              Alphabetically
+            </div>
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+              onClick={[Function]}
+            />
+            <div
+              className="menu transition"
+            >
+              <div
+                aria-checked={false}
+                aria-selected={false}
+                className="item"
+                onClick={[Function]}
+                role="option"
+                style={
+                  Object {
+                    "pointerEvents": "all",
+                  }
+                }
+              >
+                <span
+                  className="text"
+                >
+                  Popularity
+                </span>
+              </div>
+              <div
+                aria-checked={true}
+                aria-selected={true}
+                className="active selected item"
+                onClick={[Function]}
+                role="option"
+                style={
+                  Object {
+                    "pointerEvents": "all",
+                  }
+                }
+              >
+                <span
+                  className="text"
+                >
+                  Alphabetically
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui stackable two column grid filterGrid"
+  >
+    <div
+      className="column"
+    >
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Release Year
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Genre
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+      <a
+        className="ui large label"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "background": "none",
+          }
+        }
+      >
+        Rating
+         
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+        />
+      </a>
+    </div>
+    <div
+      className="right aligned column"
+    >
+      <button
+        className="ui black basic button filterButton"
+        onClick={[Function]}
+      >
+        Clear Filters
+      </button>
+      <button
+        className="ui black basic button filterButton"
+        onClick={[Function]}
+      >
+        Apply Filters
+      </button>
+    </div>
+  </div>
+  <div
+    className="ui grid"
+  >
+    <div
+      className="column"
+    >
+      <div
+        className="ui active centered inline loader"
+      />
+    </div>
+  </div>
+</div>
+`;
